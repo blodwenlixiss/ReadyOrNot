@@ -10,11 +10,11 @@ const Home = () => {
   };
 
   const moveNoButton = () => {
-    const randomX = Math.floor(Math.random() * 200) - 100 * 2;
-    const randomY = Math.floor(Math.random() * 200) - 100 * 2;
+    const randomX = Math.floor(Math.random() * 300) - 100;
+    const randomY = Math.floor(Math.random() * 300) - 100;
     setNoButtonStyle({
       position: "relative",
-      left: `${randomX}px `,
+      left: `${randomX}px`,
       top: `${randomY}px`,
       transition: "all 0.1s ease",
     });
@@ -27,7 +27,7 @@ const Home = () => {
           <h1>Would you like to go on a date with me ? {":')"}</h1>
           <img
             className="gifImage"
-            src="https://i.pinimg.com/originals/8f/68/cc/8f68ccb9df25696c03b5eff9f61e5efb.gif"
+            src="https://media.tenor.com/NC9S9-pqbzkAAAAi/lucu-cute-cat.gif"
           />
         </div>
         <div className="buttonContainer">
